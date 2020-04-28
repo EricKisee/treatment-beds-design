@@ -1,0 +1,120 @@
+body, html {
+  height: 100%;
+}
+
+.navlogo {
+	width: 20%;
+}
+.nav-link{
+	padding: 2px 0 ;
+}
+.padding-medium{
+	padding: 70px;
+  	margin: auto;
+}
+.padding-small{
+	padding: 30px;
+  	margin: auto;
+}
+#content{
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  	color: white;
+  	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+  background-attachment: fixed;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("../images/medical_assistance_1.png");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bg-image-2 {
+  /* The image used */
+  background-image: url("../images/background_1.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.btn-main{
+	background-color: green;
+	border-radius: 80px;
+	color: black;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.heading{
+	padding-bottom: 100px
+}
+.card{
+	width: 18rem;
+	padding: 10px;
+	padding-top: 20px;
+	margin: 10px;
+	border-radius : 50px;
+	color: black;
+}
+input[type='radio']:after {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -4px;
+    left: -2px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid green;
+}
+
+input[type='radio']:checked:after {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -4px;
+    left: -2px;
+    position: relative;
+    background-color: green;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid green;
+}
+.form{
+	size: 20px;
+}
+.vl {
+  border-left: 3px solid green;
+  height: 300px;
+}
