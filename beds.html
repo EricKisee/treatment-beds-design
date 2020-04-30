@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="styles/styles.css">
+
+	<title>Treatment Beds</title>
+</head>
+<body>
+<!-- 
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0, 0.8); /* Black w/opacity/ -->
+
+
+<!-- background image -->
+<div class="bg-image-2"></div>
+
+<!-- content start -->
+<div id="content">
+
+	<!-- navigation start -->
+	<div class="navigation">
+		<nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: rgba(0,0,0, 0); ">
+			<a class="navbar-brand title" href="#"><img class="navlogo" src="images/finalized_logo_1.png"> Treatment Beds</a>
+		</nav>
+	</div>
+	<!-- navigation end -->
+
+
+
+
+	<!-- body start -->
+	<div id="body">
+		<div class="container-fluid">
+			<div class="row welcome">
+				<div class="container-fluid padding-small text-center">
+					<h1 class="padding-small big-heading">Available Treatment Beds Nearby</h1>
+				 	<div class="row"><div id="map" class="col-md-9 text-center" ></div></div>
+				</div>
+			</div>
+		</div>
+	 	<div class="container-fluid">
+	 		<div class="row text-center padding-small">
+	 			<div class="col-md-1 col-lg-2"></div>
+		 		<div class="col-md-9 col-lg-6 hospitals-nearby text-left">
+			 		<h3 class="hospital-title bold">Hospital St. Families:</h3>
+					<p class="bold">Address: Jarochowskiego 18,</p>
+					<p class="bold"> 60-214 Poznań</p>
+					<p class="bold">Phone: 61 866 50 12</p>
+			 	</div>
+			 </div>
+	 		<div class="row text-center padding-small">
+	 			<div class="col-md-1 col-lg-2"></div>
+		 		<div class="col-md-9 col-lg-6 hospitals-nearby text-left">
+			 		<h3 class="hospital-title bold">Hospital St. Families:</h3>
+					<p class="bold">Address: Jarochowskiego 18,</p>
+					<p class="bold"> 60-214 Poznań</p>
+					<p class="bold">Phone: 61 866 50 12</p>
+			 	</div>
+			 </div>
+	 		<div class="row text-center padding-small">
+	 			<div class="col-md-1 col-lg-2"></div>
+		 		<div class="col-md-9 col-lg-6 hospitals-nearby text-left">
+			 		<h3 class="hospital-title bold">Hospital St. Families:</h3>
+					<p class="bold">Address: Jarochowskiego 18,</p>
+					<p class="bold"> 60-214 Poznań</p>
+					<p class="bold">Phone: 61 866 50 12</p>
+			 	</div>
+			 </div>
+		 </div>
+		 <div class="container-fluid padding-small text-center">
+		 	<div class="row text-center">
+	  			<button class="btn btn-main center btn-outline-success ">Go Home</button>
+	  		</div>
+  		</div>
+	</div>
+	<!-- body end -->
+	
+</div>
+<!-- content end -->
+
+
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFtwcbjlf6NyR1DJAqmDgtGJVrqbi1wCE&callback=initMap">
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
