@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body, html {
   height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.onboarding-logo{
+  width: 10%;
 }
 .big-heading{
-	size: 50px;
+  font-family: Montserrat;
+  font-style: black;
+  font-weight: 1000;
+  font-size: 80px;
+  line-height: 183px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
 }
 .navlogo {
-	width: 30%;
+	width: 10%;
 }
 .nav-link{
 	padding: 2px 0 ;
@@ -69,15 +82,20 @@ body, html {
   background-size: cover;
 }
 
-
+.btn-back{
+  color: #39E991;
+}
 .btn-main{
 	background-color: #39E991;
-	border-radius: 80px;
+	border-radius: 50px;
 	color: black;
 	padding-right: 80px;
 	padding-left: 80px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+  border: 1px solid #39E991;
+
+border-radius: 43px;
 }
 
 .heading{

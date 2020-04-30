@@ -13,6 +13,11 @@
 	<title>Treatment Beds</title>
 </head>
 <body>
+<!-- 
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0, 0.8); /* Black w/opacity/ -->
+
+
 <!-- background image -->
 <div class="bg-image"></div>
 
@@ -23,6 +28,22 @@
 	<div class="navigation">
 		<nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: rgba(0,0,0, 0); ">
 			<a class="navbar-brand title" href="#"><img class="navlogo" src="images/finalized_logo_1.png"> Treatment Beds</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Get Involved</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">How it works</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">About</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	</div>
 	<!-- navigation end -->
@@ -30,39 +51,16 @@
 	<div id="body">
 		<div id="title" class="container-fluid">
 			<div class="row welcome">
-			<div class="col-sm-12 col-md-8 col-lg-6 padding-medium">
-				<h1 class="heading padding-small bold">Have you traveled internationally within the last 14 days?</h1>
+			<div class="col-sm-12 col-md-4 padding-medium">
+				<img class="rounded float-left" src="images/fill_Personal_data.png" alt="" width="300" height="200">
 			</div>
-			<div class="col-sm-12 col-md-4 col-lg-6 padding-medium form">
-				<div class="row">
-					<div class="vl col-2 "></div>
-					<div class="col-10"> 
-						<p class="padding-small"><input type="radio">&nbsp;&nbsp;&nbsp;&nbsp; Yes</p>
-						<p class="padding-small"><input type="radio"> &nbsp;&nbsp;&nbsp;&nbsp; No</p>
-					</div>
+			<div class="col-sm-12 col-md-8 padding-medium">
+				<h1 class="heading bold">Thank You! We will contact you.</h1>
+				<div class="text-center">
+					<button type="button" class="btn-main btn-outline-success ">Go Home</button>
 				</div>
+			</div>
 
-				<div class="row">
-					<div class="col-6">
-						<a class="btn-back" href="">
-							<svg class="bi bi-arrow-left" width="30" height="30" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							  <path fill-rule="evenodd" d="M5.854 4.646a.5.5 0 010 .708L3.207 8l2.647 2.646a.5.5 0 01-.708.708l-3-3a.5.5 0 010-.708l3-3a.5.5 0 01.708 0z" clip-rule="evenodd"/>
-							  <path fill-rule="evenodd" d="M2.5 8a.5.5 0 01.5-.5h10.5a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
-							</svg>
-							Previous
-						</a>
-						</div>
-						<div class="col-6">
-							<button type="button" class="btn-main bold">
-								Next
-								<svg class="bi bi-arrow-right" width="30" height="30" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-								  <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd"/>
-								  <path fill-rule="evenodd" d="M2 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 8z" clip-rule="evenodd"/>
-								</svg>
-							</button>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
